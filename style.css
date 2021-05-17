@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* overflow: hidden; */
+  height: 100vh;
+  background: #eddecd;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  height: 50px;
+  width: 80%;
+  margin: 20px auto;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  margin: auto 0;
+}
+.logo .line-1 {
+  margin-top: 3px;
+  height: 6px;
+  border-radius: 3px;
+  background: #0a0807;
+  width: 18px;
+  margin-left: 12px;
+}
+.logo .line-2 {
+  margin-top: 3px;
+  height: 6px;
+  border-radius: 3px;
+  background: #0a0807;
+  width: 30px;
+}
+.logo .line-3 {
+  margin-top: 3px;
+  height: 6px;
+  border-radius: 3px;
+  background: #0a0807;
+  width: 18px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 80%;
+}
+h1 {
+  font-weight: bold;
+}
+.reading {
+  display: flex;
+  align-items: flex-end;
+}
+.reading button {
+  background: #0a0807;
+  color: #fff;
+  padding: 7px 15px;
+
+  border-radius: 20px;
+}
+.bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  top: -20px;
+  margin: 0 auto;
+  width: 80%;
+  /* border: 1px solid #0a0807; */
+  height: 200px;
+}
+.bar {
+  display: flex;
+  width: 22px;
+  height: 100px;
+  border-radius: 15px;
+}
+.bar1,
+.bar3 {
+  height: 60px;
+}
+
+.bar2,
+.bar5,
+.bar7,
+.bar9 {
+  height: 90px;
+}
+.timing {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 10px auto;
+  font-weight: bold;
+}
+span {
+  margin: 6px;
+}
+.main-container {
+  display: grid;
+  width: 80%;
+  grid-template-columns: repeat(2, 1fr);
+  height: 300px;
+  grid-gap: 25px;
+  margin: 20px auto;
+}
+.light,
+.sound,
+.fans,
+.heater {
+  display: grid;
+  place-items: center;
+}
+.bottom-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 40px auto;
+}
+/* #c1ab96  #0a0807  #ab9263  #eddecd  #8f663b*/
